@@ -6,4 +6,6 @@ our prototype.
 3. The class must implement Cloneable interface.
 4. The method should declare CloneNotSupportedException in throws clause to give subclasses chance to decide whether to support cloning.
 
+## Design Consideration
 
+1. Prototypes are useful when you have large objects where majority of state is unchanged between instances and you can easily identity that state.
