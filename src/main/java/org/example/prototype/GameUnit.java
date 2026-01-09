@@ -3,6 +3,7 @@ package org.example.prototype;
 /**
  * This class represents an abstract prototype & defines the clone method.
  */
+// Cloneable is marker interface, it does not define any method, but it defines, class supports cloning
 public abstract class GameUnit implements Cloneable {
     private int position;
 
