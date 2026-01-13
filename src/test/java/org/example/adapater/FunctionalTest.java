@@ -5,6 +5,7 @@ import org.example.adapter.StripeClient;
 import org.example.adapter.StripeClientClassAdapter;
 import org.example.adapter.StripeClientObjectAdapter;
 import org.junit.jupiter.api.Test;
+import java.util.List;
 
 class FunctionalTest {
     @Test
